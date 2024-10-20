@@ -1,0 +1,24 @@
+bf_subprocess_secuential.py:
+real	4m30.498s
+user	4m24.087s
+sys	0m6.109s
+
+bf_gnupg_secuential.py:
+real	4m28.255s
+user	4m21.458s
+sys	0m7.375s
+
+bf_multithreading.py:
+real	3m53.828s
+user	14m59.288s
+sys	0m19.187s
+
+bf_multiprocesing.py:
+real	3m39.659s
+user	14m5.591s
+sys	0m19.223s
+
+bf_multiprocessing_cpu_affinity.py:
+real	3m04.005s
+user	11m18.891s
+sys	0m18.819s
