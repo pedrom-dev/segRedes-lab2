@@ -1,4 +1,4 @@
-# Proyecto de Ataque de Fuerza Bruta con GPG
+# Seguridad en Redes: Laboratorio 2
 
 Este repositorio contiene todos los archivos y scripts utilizados para realizar el ataque de fuerza bruta sobre un archivo cifrado con GPG como parte de la práctica 2 del laboratorio de Seguridad en Redes. A continuación se describe el contenido de cada archivo.
 
