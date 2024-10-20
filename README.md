@@ -29,3 +29,8 @@ Para ejecutar los scripts dentro de un contenedor Docker controlado, sigue estos
 2. **Ejecutar el contenedor con 4 núcleos de CPU**:
     ```bash
     docker run -it --cpus="4" fuerza_bruta_gpg
+
+## Ejecución del script
+El script usado para desencriptar el archivo `archive.pdf.gpg` se ha utilizado el script bf_multiprocessing_cpu_affinity_used.py. Puesto que la ruta al archivo está hardcodeada directamente en el script, no es necesario pasarle ningún parametro al ejecutable de Python, simplemente ejecutarlo escribiendo:
+```bash
+   time python3 bf_multiprocessing_cpu_affinity_used.py
