@@ -14,7 +14,7 @@ Este repositorio contiene todos los archivos y scripts utilizados para realizar 
 
 - **`archive.pdf.gpg`**: Archivo cifrado proporcionado como parte de la práctica. El objetivo del ataque de fuerza bruta es encontrar la passphrase que permite desencriptar este archivo.
 
-- **`bf_multiprocessing_cpu_affinity_used.py`**: Script final utilizado para desencriptar el archivo **`archive.pdf.gpg`**. Este script emplea el enfoque de **multiprocessing con afinidad de CPU** para realizar el ataque de fuerza bruta de manera más eficiente.
+- **`bf_multiprocessing_cpu_affinity_used.py`**: Script final utilizado para desencriptar el archivo **`archive.pdf.gpg`**. Este script emplea el enfoque de multiprocessing con afinidad de CPU para realizar el ataque de fuerza bruta de manera más eficiente.
 
 - **`README.md`**: Este archivo, que describe el contenido del repositorio y explica brevemente el propósito de cada archivo.
 
