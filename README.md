@@ -1,4 +1,4 @@
-# Proyecto de Ataque de Fuerza Bruta con GPG
+# Seguridad en Redes - Laboratorio 2
 
 Este repositorio contiene todos los archivos y scripts utilizados para realizar el ataque de fuerza bruta sobre un archivo cifrado con GPG como parte de la práctica 2 del laboratorio de Seguridad en Redes. A continuación se describe el contenido de cada archivo.
 
@@ -14,7 +14,7 @@ Este repositorio contiene todos los archivos y scripts utilizados para realizar 
 
 - **`archive.pdf.gpg`**: Archivo cifrado proporcionado como parte de la práctica. El objetivo del ataque de fuerza bruta es encontrar la passphrase que permite desencriptar este archivo.
 
-- **`bf_multiprocessing_cpu_affinity_used.py`**: Script final utilizado para desencriptar el archivo **`archive.pdf.gpg`**. Este script emplea el enfoque de **multiprocessing con afinidad de CPU** para realizar el ataque de fuerza bruta de manera más eficiente.
+- **`bf_multiprocessing_cpu_affinity_used.py`**: Script final utilizado para desencriptar el archivo **`archive.pdf.gpg`**. Este script emplea el enfoque de multiprocessing con afinidad de CPU para realizar el ataque de fuerza bruta de manera más eficiente.
 
 - **`README.md`**: Este archivo, que describe el contenido del repositorio y explica brevemente el propósito de cada archivo.
 
@@ -29,3 +29,8 @@ Para ejecutar los scripts dentro de un contenedor Docker controlado, sigue estos
 2. **Ejecutar el contenedor con 4 núcleos de CPU**:
     ```bash
     docker run -it --cpus="4" fuerza_bruta_gpg
+
+## Ejecución del script
+El script usado para desencriptar el archivo `archive.pdf.gpg` se ha utilizado el script bf_multiprocessing_cpu_affinity_used.py. Puesto que la ruta al archivo está hardcodeada directamente en el script, no es necesario pasarle ningún parametro al ejecutable de Python, simplemente ejecutarlo escribiendo:
+```python
+   time python3 bf_multiprocessing_cpu_affinity_used.py
