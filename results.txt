@@ -22,3 +22,8 @@ bf_multiprocessing_cpu_affinity.py:
 real	3m04.005s
 user	11m18.891s
 sys	0m18.819s
+
+bf_multiprocessing_cpu_affinity_used.py (usado para resolver el ejercicio):
+real	1113m5.086s
+user	1428m47.626s
+sys	24m13.616s

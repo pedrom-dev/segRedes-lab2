@@ -72,7 +72,7 @@ def brute_force_attack():
     shared_result = manager.list()  # Lista compartida para guardar la contraseña encontrada
 
     # Empezar probando contraseñas de longitud 1, luego 2, y así sucesivamente
-    for length in range(1, 4):  # Cambia '4' por un número mayor si necesitas probar más longitud de contraseñas
+    for length in range(1, 5):  # Cambia '4' por un número mayor si necesitas probar más longitud de contraseñas
         print(f"Probando contraseñas de longitud {length}...")
 
         # Generar todas las combinaciones posibles de la longitud actual
